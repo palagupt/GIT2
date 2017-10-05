@@ -113,7 +113,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="MCWeather.UWP_TemporaryKey.pfx" />
     <None Include="TSC.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
