@@ -22,7 +22,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <PackageCertificateThumbprint>F9407B0A89E7800BE3F7808FFF418E1253465CAA</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>075A7E8A2234C6521441385D2C04F67055EF591E</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
