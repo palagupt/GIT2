@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{200F6A75-81CB-41B8-8510-429C136C9B63}"
 EndProject
@@ -62,7 +62,6 @@ Global
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Debug|x86.ActiveCfg = Debug|x86
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Debug|x86.Build.0 = Debug|x86
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7CFA560-D453-4924-954F-43F57094D97E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Release|ARM.ActiveCfg = Release|ARM
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Release|ARM.Build.0 = Release|ARM
 		{B7CFA560-D453-4924-954F-43F57094D97E}.Release|x64.ActiveCfg = Release|x64
@@ -82,6 +81,8 @@ Global
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Debug|x86.Build.0 = Debug|x86
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Debug|x86.Deploy.0 = Debug|x86
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|Any CPU.ActiveCfg = Release|x86
+		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|Any CPU.Build.0 = Release|x86
+		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|Any CPU.Deploy.0 = Release|x86
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|ARM.ActiveCfg = Release|ARM
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|ARM.Build.0 = Release|ARM
 		{5864F62C-029A-42F6-8160-6BF8012490B6}.Release|ARM.Deploy.0 = Release|ARM
@@ -154,35 +155,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93D645EE-4FEE-46FE-98BE-BECD001E15A4}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tractorsupply.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = TSC.Common\\TSC.Common.csproj
-		SccProjectTopLevelParentUniqueName1 = TSC_UWP.sln
-		SccProjectName1 = TSC.Common
-		SccLocalPath1 = TSC.Common
-		SccProjectUniqueName2 = TSC.Common.UWP\\TSC.Common.UWP.csproj
-		SccProjectTopLevelParentUniqueName2 = TSC_UWP.sln
-		SccProjectName2 = TSC.Common.UWP
-		SccLocalPath2 = TSC.Common.UWP
-		SccProjectUniqueName3 = TSC.UWP\\TSC.UWP.csproj
-		SccProjectTopLevelParentUniqueName3 = TSC_UWP.sln
-		SccProjectName3 = TSC.UWP
-		SccLocalPath3 = TSC.UWP
-		SccProjectUniqueName4 = TSC.Common.Test\\TSC.Common.Test.csproj
-		SccProjectTopLevelParentUniqueName4 = TSC_UWP.sln
-		SccProjectName4 = TSC.Common.Test
-		SccLocalPath4 = TSC.Common.Test
-		SccProjectUniqueName5 = Toolbox.Portable\\Toolbox.Portable.csproj
-		SccProjectTopLevelParentUniqueName5 = TSC_UWP.sln
-		SccProjectName5 = Toolbox.Portable
-		SccLocalPath5 = Toolbox.Portable
-		SccProjectUniqueName6 = Toolbox.UWP\\Toolbox.UWP.csproj
-		SccProjectTopLevelParentUniqueName6 = TSC_UWP.sln
-		SccProjectName6 = Toolbox.UWP
-		SccLocalPath6 = Toolbox.UWP
 	EndGlobalSection
 EndGlobal

@@ -165,10 +165,6 @@
       <Project>{ca85d2c8-3c03-4e63-b6a9-2683c00f12b6}</Project>
       <Name>Toolbox.UWP</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TSC.Common.UWP\TSC.Common.UWP.csproj">
-      <Project>{b7cfa560-d453-4924-954f-43f57094d97e}</Project>
-      <Name>TSC.Common.UWP</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.VCLibs.120, Version=14.0">
