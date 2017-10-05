@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroundImage" />
+    <TSC.Common.Droid.Views.ThermometerView
+        android:id="@+id/thermometerView"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/descriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionLabel"
+        android:layout_above="@+id/currentTemperatureLabel"
+        android:paddingLeft="20dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTemperatureLabel"
+        android:layout_above="@+id/highTemperatureLabel"
+        android:textSize="80dp"
+        android:paddingLeft="20dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unitLabel"
+        android:layout_toEndOf="@id/currentTemperatureLabel"
+        android:layout_above="@+id/highTemperatureLabel"
+        android:paddingLeft="5dp"
+        android:paddingBottom="20dp"
+        android:textSize="30dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highTemperatureLabel"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="100dp"
+        android:paddingLeft="20dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lowTemperatureLabel"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/highTemperatureLabel"
+        android:paddingLeft="20dp"
+        android:paddingBottom="100dp" />
+</RelativeLayout>
